@@ -1,4 +1,4 @@
-public class Number {
+class Number {
     private int value;
 
     public Number(int value) {
@@ -9,5 +9,12 @@ public class Number {
         return value;
     }
 
-    public void setValue
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%02d", value);
+    }
 }
