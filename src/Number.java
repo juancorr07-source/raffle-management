@@ -5,7 +5,7 @@ class Number {
         this.value = value;
     }
 
-    public int getVAlue() {
+    public int getValue() {
         return value;
     }
 
